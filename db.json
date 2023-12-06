@@ -1,0 +1,47 @@
+{
+  "users": [
+    {
+      "username": "Rey",
+      "id": 1
+    },
+    {
+      "username": "gol",
+      "id": 2
+    },
+    {
+      "username": "rey",
+      "id": 3
+    },
+    {
+      "username": "Reinaldo",
+      "id": 4
+    }
+  ],
+  "todos": [
+    {
+      "name": "Gola",
+      "phone": "04125363636",
+      "id": 1
+    },
+    {
+      "name": "Lode",
+      "phone": "04125363632",
+      "id": 2
+    },
+    {
+      "name": "Reyy",
+      "phone": "04125353332",
+      "id": 3
+    },
+    {
+      "name": "Reinaldo",
+      "phone": "04125353536",
+      "id": 4
+    },
+    {
+      "name": "Rey",
+      "phone": "04125364743",
+      "id": 5
+    }
+  ]
+}

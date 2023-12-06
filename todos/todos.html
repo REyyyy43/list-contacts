@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de contactos</title>
+  <link rel="stylesheet" href="todos.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1 style="font-size: 3rem; color: aliceblue;">Lista de Contactos</h1>
+  <div class="container">
+  <form id="form">
+    <div class="input-container"
+    <label for=""></label>
+    <label for="name-input">Nombre:</label>
+    <input class="input-form" type="text" id="name-input" autocomplete="off" placeholder=" Nombre..">
+    <p class="helper-form">
+    la primera letra tiene que ser mayuscula e incluir un solo Nombre
+    </p>
+    </div>
+    <div class="input-container">
+      <label for="phone-input">Numero: </label>
+      <input class="input-form" type="text" id="phone-input" autocomplete="off" placeholder=" Telefono..">
+      <p class="helper-form">
+        Tiene que ser un numero venezolano valido.
+      </p>
+    </div>
+    <button id="form-btn" disabled type="submit">Crear</button>
+  </form>
+  <ul id="list">
+  </ul>
+</div>
+  <script src="todos.js"></script>
+</body>
+</html>
